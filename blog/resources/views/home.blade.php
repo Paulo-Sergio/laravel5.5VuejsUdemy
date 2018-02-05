@@ -20,7 +20,7 @@
                         </painel-component>
                     </div>
                     <div class="col-md-4">
-                        <painel-component titulo="Conteudo 3" cor="panel-info">
+                        <painel-component titulo="Conteudo 3" cor="orange">
                             Teste de conteúdo no sub-painel
                         </painel-component>
                     </div>

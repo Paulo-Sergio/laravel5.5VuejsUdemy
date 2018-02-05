@@ -43392,7 +43392,7 @@ exports = module.exports = __webpack_require__(48)(false);
 
 
 // module
-exports.push([module.i, "\n.blue{\n    border-color: #0d4a96;\n}\n.blue > .panel-heading {\n    color: #f7f7f7;\n    background-color: #0d4a96;\n    border-color: #0d4a96;\n}\n", ""]);
+exports.push([module.i, "\n.blue{\n    border-color: #0d4a96;\n}\n.blue > .panel-heading {\n    color: #f7f7f7;\n    background-color: #0d4a96;\n    border-color: #0d4a96;\n}\n.orange{\n    border-color: #e85e0d;\n}\n.orange > .panel-heading {\n    color: #f7f7f7;\n    background-color: #e85e0d;\n    border-color: #e85e0d;\n}\n", ""]);
 
 // exports
 

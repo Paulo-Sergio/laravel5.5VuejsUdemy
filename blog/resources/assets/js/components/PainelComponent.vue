@@ -28,4 +28,13 @@
         background-color: #0d4a96;
         border-color: #0d4a96;
     }
+
+    .orange{
+        border-color: #e85e0d;
+    }
+    .orange > .panel-heading {
+        color: #f7f7f7;
+        background-color: #e85e0d;
+        border-color: #e85e0d;
+    }
 </style>
