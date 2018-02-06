@@ -8,6 +8,8 @@
 		<tabela-lista-component 
 			v-bind:titulos="['#', 'titulo', 'descricao']"
 			v-bind:itens="[[1, 'PHP OO', 'Curso de PHP OO'], [2, 'JAVA OO', 'Curso de JAVA OO']]"
+			ordem="asc"
+			ordemcol="2"
 			criar="#criar"
 			detalhe="#detalhe"
 			editar="#editar"
