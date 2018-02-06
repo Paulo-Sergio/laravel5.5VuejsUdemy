@@ -8,6 +8,11 @@
 		<tabela-lista-component 
 			v-bind:titulos="['#', 'titulo', 'descricao']"
 			v-bind:itens="[[1, 'PHP OO', 'Curso de PHP OO'], [2, 'JAVA OO', 'Curso de JAVA OO']]"
+			criar="#criar"
+			detalhe="#detalhe"
+			editar="#editar"
+			deletar="#deletar"
+			token="1964165487"
 			>
 		</tabela-lista-component>
 
