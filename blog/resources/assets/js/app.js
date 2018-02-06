@@ -20,6 +20,7 @@ Vue.component('topo-component', require('./components/TopoComponent.vue'));
 Vue.component('painel-component', require('./components/PainelComponent.vue'));
 Vue.component('caixa-component', require('./components/CaixaComponent.vue'));
 Vue.component('pagina-component', require('./components/PaginaComponent.vue'));
+Vue.component('tabela-lista-component', require('./components/TabelaListaComponent.vue'));
 
 const app = new Vue({
     el: '#app'

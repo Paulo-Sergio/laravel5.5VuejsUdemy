@@ -8,7 +8,7 @@
 
         <div class="row">
             <div class="col-md-4">
-                <caixa-component qtd="80" titulo="Artigos" url="#teste" cor="orange" icone="ion ion-pie-graph">
+                <caixa-component qtd="80" titulo="Artigos" url="{{route('artigos.index')}}" cor="orange" icone="ion ion-pie-graph">
                 </caixa-component>
             </div>
             <div class="col-md-4">
