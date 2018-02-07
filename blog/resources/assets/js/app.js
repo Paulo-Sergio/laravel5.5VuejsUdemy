@@ -24,7 +24,7 @@ Vue.component('tabela-lista-component', require('./components/TabelaListaCompone
 Vue.component('migalhas-component', require('./components/MigalhasComponent.vue'));
 Vue.component('modal-component', require('./components/modal/ModalComponent.vue'));
 Vue.component('modallink-component', require('./components/modal/ModalLinkComponent.vue'));
-Vue.component('formulario-component', require('./components/modal/FormularioComponent.vue'));
+Vue.component('formulario-component', require('./components/FormularioComponent.vue'));
 
 const app = new Vue({
     el: '#app'
