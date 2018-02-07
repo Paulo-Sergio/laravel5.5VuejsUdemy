@@ -4,7 +4,7 @@
 
 <pagina-component tamanho="10">
     <painel-component titulo="Dashboard">
-        Teste de conteúdo no painel...
+        <migalhas-component v-bind:lista="{{$listaMigalhas}}"></migalhas-component>
 
         <div class="row">
             <div class="col-md-4">

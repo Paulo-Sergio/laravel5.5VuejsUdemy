@@ -1382,7 +1382,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(13);
-module.exports = __webpack_require__(66);
+module.exports = __webpack_require__(69);
 
 
 /***/ }),
@@ -1412,6 +1412,7 @@ Vue.component('painel-component', __webpack_require__(47));
 Vue.component('caixa-component', __webpack_require__(53));
 Vue.component('pagina-component', __webpack_require__(58));
 Vue.component('tabela-lista-component', __webpack_require__(61));
+Vue.component('migalhas-component', __webpack_require__(66));
 
 var app = new Vue({
   el: '#app'
@@ -44446,6 +44447,119 @@ if (false) {
 
 /***/ }),
 /* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = __webpack_require__(67)
+/* template */
+var __vue_template__ = __webpack_require__(68)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\MigalhasComponent.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-717bc752", Component.options)
+  } else {
+    hotAPI.reload("data-v-717bc752", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 67 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ["lista"],
+  computed: {
+    defineClass: function defineClass() {
+      if (this.url) {
+        return "active";
+      } else {
+        return "";
+      }
+    }
+  },
+  mounted: function mounted() {
+    console.log(this.lista);
+  }
+});
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "ol",
+    { staticClass: "breadcrumb" },
+    _vm._l(_vm.lista, function(item) {
+      return _c("li", [
+        item.url
+          ? _c("a", { class: _vm.defineClass, attrs: { href: item.url } }, [
+              _vm._v(_vm._s(item.titulo))
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        !item.url ? _c("span", [_vm._v(_vm._s(item.titulo))]) : _vm._e()
+      ])
+    })
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-717bc752", module.exports)
+  }
+}
+
+/***/ }),
+/* 69 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
